@@ -1,0 +1,113 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background-color: beige;
+    box-sizing: border-box;
+    font-family: "Source Sans 3", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    margin: 0 0 2px 0;
+}
+
+h1, h2 {
+    font-size: 13px;
+}
+
+
+p {
+    font-size: 12px;
+    margin: 0;
+}
+
+
+.container {
+    position: relative;
+    background-color: white;
+    width: 375px;
+    margin: auto;
+}
+
+.feed-container {
+    padding: 10px 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid lightgray;
+    padding: 8px 10px;
+}
+
+.logo-img {
+    width: 127px;
+}
+.av-img {
+    margin: auto 0 auto auto;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+}
+
+.post-av-img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+}
+
+.post-info {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.post-img {
+    display: block;
+    width: 100%;
+    margin: 0;
+}
+
+.icon-png {
+    width: 25px;
+}
+
+.icon-png:hover {
+    opacity: 0.5;
+}
+
+.likes-comments-container {
+    padding: 15px 13px;
+}
+
+.likes-comments-container img {
+    margin-right: 10px;
+}
+
+.bold {
+    font-weight: 900;
+}
+
+.padding {
+    padding: 10px 0;
+}
+
+.next-post {
+    margin-top: 10px;
+    position: absolute;
+    top: 400;
+    left: 135px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    background-color: purple;
+    color: whitesmoke;
+    cursor: pointer;
+}
